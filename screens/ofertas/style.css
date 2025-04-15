@@ -1,0 +1,12 @@
+.card-img-fixed {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .preco-antigo {
+    font-size: 1rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+    color: #888;
+  }

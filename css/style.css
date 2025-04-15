@@ -1,21 +1,73 @@
+.nav-link {
+  color: white;
+}
+
+.nav-link:active {
+  color: rgb(0, 0, 0);
+}
+
+.banner-container {
+  width: 100vw;
+  height: 200px;
+  overflow: hidden;
+}
+
+#banner-header {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.custom-card {
+  height: 100%;
+  max-height: 530px; 
+}
+
+.card-img-fixed {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.categoria-img {
+  width: 100%;
+  max-width: 150px; 
+  height: 120px;     
+  object-fit: cover;
+  border-radius: 50% / 40%; 
+  display: block;
+  margin: 0 auto;
+}
+
+.carousel-img {
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
 
 
-  
-  nav.navbar a {
-    color: white ;
-    font-weight: bold;
-  }
+.caption-box {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1rem;
+  border-radius: 10px;
+  color: #2e7d32; 
+}
 
-  .banner-container {
-    width: 100vw;
-    height: 200px;
-    overflow: hidden;
-  }
 
-  #banner-header {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+.caption-carrousel {
+  color: #8B4513; 
+  margin: 0;
+}
 
-  }
+
+.carousel-inner {
+  border-radius: 8px;
+  overflow: hidden;
+}
